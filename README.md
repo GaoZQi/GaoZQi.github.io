@@ -2,5 +2,5 @@
 
 | title |                            link                             |   state    |
 | :---: | :---------------------------------------------------------: | :--------: |
-| GDocs | [GDocs (gaozqi.github.io)](https://gaozqi.github.io/GDocs/) | developing |
+| note | [GDocs (gaozqi.github.io)](https://gaozqi.github.io/note/) | developing |
 
