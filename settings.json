@@ -1,0 +1,186 @@
+{
+    "terminal.integrated.env.windows": {},
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 17,
+    "editor.fontFamily": "JetBrainsMonoNerdFontCompleteM, '微软雅黑', Consolas, 'Courier New', monospace",
+    "editor.wordWrap": "bounded",
+    "editor.codeLensFontFamily": "JetBrains Mono, '微软雅黑', Consolas, 'Courier New', monospace",
+    "editor.inlayHints.fontFamily": "JetBrains Mono, '微软雅黑', Consolas, 'Courier New', monospace",
+    "debug.console.fontSize": 16,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "fluent-icons",
+    "terminal.integrated.fontSize": 16,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "smooth",
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.size": "fit",
+    "files.autoGuessEncoding": true,
+    "workbench.list.smoothScrolling": true,
+    "workbench.colorCustomizations": {
+        "[Material Theme Ocean High Contrast]": {
+            "selection.background": "#353850b0",
+            "editorGroup.dropBackground": "#3353606a",
+            "list.dropBackground": "#2a2e3e6a",
+            "minimapSlider.activeBackground": "#3437468a",
+            "statusBarItem.activeBackground": "#2a3e3d6a",
+            "editorBracketHighlight.foreground1": "#ffc800",
+            "editorBracketHighlight.foreground2": "#4ab4ff",
+            "editorBracketHighlight.foreground3": "#ff85ab",
+            // "editorBracketHighlight.foreground4": "#00ffff",
+            // "editorBracketHighlight.foreground5": "#38ffa2",
+            // "editorBracketHighlight.foreground6": "#ffa136"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Material Theme Ocean High Contrast]": {
+            // "comments": "#7ceead", // 注释
+            // "keywords": "#a4fff9", // 关键字
+            "variables": "#ff8873",// 变量名
+            // "strings": "#db6c11b0", // 字符串
+            // "functions": "#382ce4c9", // 函数名
+            "numbers": "#66e0cc" // 数字
+        }
+    },
+    "workbench.editor.defaultBinaryEditor": "hexEditor.hexedit",
+    "window.dialogStyle": "custom",
+    "appworks.enableDataAnalysisServices": false,
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "NOTE"
+    ],
+    "todo-tree.tree.expanded": true,
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "activitusbar.views": [
+        // {
+        //     "name": "explorer",
+        //     "codicon": "explorer-view-icon"
+        // },
+        {
+            "name": "settings",
+            "codicon": "gear"
+        },
+        {
+            "name": "terminal",
+            "codicon": "terminal"
+        }
+    ],
+    "activitusbar.activeColour": "#91c9c4",
+    "git.confirmSync": false,
+    "activitusbar.inactiveColour": "#91c9c4",
+    "markdown.copyFiles.destination": {
+        "**/*.md": "${documentDirName}/assets/"
+    },
+    "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "markdown.validate.fileLinks.enabled": "error",
+    "markdown.validate.referenceLinks.enabled": "error",
+    "markdown.extension.toc.unorderedList.marker": "+",
+    "markdownlint.run": "onSave",
+    "material-icon-theme.folders.color": "#72d1ce",
+    "material-icon-theme.files.color": "#72d1ce",
+    "mediaPreview.video.autoPlay": true,
+    "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+    "todo-tree.general.showActivityBarBadge": true,
+    "todo-tree.general.statusBar": "tags",
+    "todo-tree.filtering.ignoreGitSubmodules": true,
+    "todo-tree.filtering.includeHiddenFiles": true,
+    "todo-tree.tree.buttons.export": true,
+    "todo-tree.tree.buttons.groupBySubTag": true,
+    "todo-tree.tree.buttons.scanMode": true,
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^[ \\t]*(-|\\+|\\d+.))\\s*($TAGS)",
+    "todo-tree.tree.flat": true,
+    "todo-tree.highlights.useColourScheme": true,
+    "todo-tree.general.revealBehaviour": "leave focus in tree",
+    "todo-tree.highlights.enabled": true,
+    "todo-tree.tree.groupedByTag": true,
+    "todo-tree.tree.showCountsInTree": true,
+    "todo-tree.tree.showCurrentScanMode": false,
+    "todo-tree.tree.tooltipFormat": " ${filename}, ${line}: ${after}",
+    "todo-tree.tree.labelFormat": "${after}",
+    "todo-tree.highlights.backgroundColourScheme": [
+        "red",
+        "orange",
+        "yellow",
+        "white",
+        "blue",
+        "white",
+        "green"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "BUG": {
+            "icon": "bug",
+            "foreground": "#f74141",
+            "background": "#00000000",
+            "iconColour": "#ff493c",
+        },
+        "HACK": {
+            "icon": "tools",
+            "foreground": "#f2a93b",
+            "background": "#00000000",
+            "iconColour": "#ff9c4b",
+        },
+        "FIXME": {
+            "icon": "flame",
+            "foreground": "#ffff2f",
+            "background": "#00000000",
+            "iconColour": "#fffc5f",
+        },
+        "XXX": {
+            "icon": "x",
+            "foreground": "#0091ff",
+            "background": "#00000000",
+            "iconColour": "#0051ff",
+        },
+        "[ ]": {
+            "icon": "issue-draft",
+            "foreground": "#ffffffdc",
+            "background": "#00000000",
+            "iconColour": "#ffffff",
+        },
+        "[x]": {
+            "icon": "issue-closed",
+            "foreground": "#5fe7aa",
+            "background": "#00000000",
+            "iconColour": "#52ff78",
+        },
+        "NOTE": {
+            "icon": "note",
+            "foreground": "#0ed6e1",
+            "background": "#00000000",
+            "iconColour": "#00fefa",
+        },
+        "TODO": {
+            "icon":"check",
+            "foreground": "#dcdcdc",
+            "background": "#00000000",
+            "iconColour": "#ffffff",
+        }
+    },
+    "wakatime.apiKey": "waka_b43fbc36-d862-44d5-a791-78a5c23f4c31",
+    "python.terminal.executeInFileDir": true,
+    "files.simpleDialog.enable": true,
+    "workbench.preferredDarkColorTheme": "Material Theme Ocean High Contrast",
+    "markdown.preview.fontSize": 16,
+    "console-ninja.featureSet": "Community",
+    "editor.guides.bracketPairs": "active",
+    "python.languageServer": "Pylance",
+    "python.terminal.focusAfterLaunch": true,
+    "workbench.colorTheme": "Material Theme Ocean High Contrast",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
+}
